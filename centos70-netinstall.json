@@ -1,0 +1,13 @@
+{
+  "_comment": "Build with `packer build -var-file=centos70-netinstall.json centos-netinstall.json`",
+  "vm_name": "centos70",
+  "cpus": "1",
+  "disk_size": "65536",
+  "iso_checksum": "e5a2c3c6d245b17e8d6ae2c31d2f34b62c273a0e",
+  "iso_checksum_type": "sha1",
+  "iso_name": "CentOS-7.0-1406-x86_64-NetInstall.iso",
+  "iso_url": "http://archive.kernel.org/centos-vault/7.0.1406/isos/x86_64/CentOS-7.0-1406-x86_64-NetInstall.iso",
+  "kickstart": "ks7-netinstall.cfg",
+  "memory": "512",
+  "parallels_guest_os_type": "centos7"
+}
